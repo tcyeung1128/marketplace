@@ -1,0 +1,33 @@
+.activityBackground {
+  background-color: #594545;
+  height: 90vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.activityCard {
+  background-color: #9e7676;
+  margin: 20px;
+  padding: 10px;
+  border: #553939;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #594545;
+}
+
+.activityCard:hover {
+  background-color: #65313159;
+  font-size: 30px;
+}
+
+.activityCard:active {
+  background-color: #644d4d;
+  box-shadow: #fff8ea;
+}
+
+.activityName {
+  background-color: #fff8ea;
+  border-radius: 20px;
+  text-decoration: none;
+}

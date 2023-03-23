@@ -1,0 +1,16 @@
+.buyButtonDiv{
+    background-color: #594545;
+    /* padding-bottom: 50px; */
+}
+
+.buyButton {
+  border: #4e2d2d;
+  border-width: 5px;
+  border-style:solid;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.buyImg{
+  width: 50px;
+}

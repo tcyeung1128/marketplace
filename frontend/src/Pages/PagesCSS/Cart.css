@@ -1,0 +1,89 @@
+.cartBackground{
+  background-color: #594545;
+  height: 100vh;
+  padding-top:50px ;
+}
+
+.cartBottonground{
+  background-color: #594545;
+  padding-bottom: 50px;
+}
+
+.cartBackground2{
+  background-color: #594545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartCard{
+  background-color:  #9e7676;
+  border-style:solid;
+  border-width: 5px;
+  border-color: #4e2d2d;
+  margin: 10px;
+  border-radius: 20px;
+  width: 95%;
+  display: flex;
+}
+
+.cartCardL{
+  width: 38%;
+}
+
+.cartCardR{
+  padding: 20px;
+  width:62%;
+}
+
+.cartImg{
+  width: 150px;
+  margin: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #4e2d2d;
+  border-width: 5px;
+}
+
+.itemTextDiv{
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #4e2d2d;
+  border-width: 2px;
+  background-color: antiquewhite;
+}
+
+.itemText{
+  margin: 0px;
+  padding: 1px;
+  
+}
+
+.totalTextDiv{
+  /* border-style: solid; */
+  border-color: #4e2d2d;
+  border-width: 2px;
+  background-color: antiquewhite;
+}
+
+.totalText{
+  margin: 0px;
+  padding: 1px;
+}
+
+.addImg{
+width: 10px;
+}
+
+.minusImg{
+width: 10px;
+}
+
+.addAndMinusButton{
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #4e2d2d;
+  border-width: 2px;
+  background-color: antiquewhite;
+  margin: 5px;
+}

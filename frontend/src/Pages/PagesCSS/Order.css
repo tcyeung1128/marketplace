@@ -1,0 +1,39 @@
+.orderBackground {
+  background-color: #594545;
+  height: 90vh;
+  padding-top: 50px;
+}
+
+.orderBackground2 {
+  background-color: #594545;
+  padding-bottom: 50px;
+}
+
+.cardBackground {
+  background-color: #9e7676;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4e2d2d;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.orderCardL {
+  width: 38%;
+}
+
+.orderCardR {
+  width: 62%;
+}
+
+.orderItemImg {
+  width: 150px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #594545;
+  margin: 5px;
+}

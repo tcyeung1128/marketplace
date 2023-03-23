@@ -1,0 +1,27 @@
+.activityDetailDiv{
+  background-color: #594545;
+  height: 90vh;
+  display:flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.activityDetailCard{
+  background-color: antiquewhite;
+  border-color: #594545;
+  border-width: 15px;
+  border-style: double;
+  border-radius: 20px;
+  /* gap: 10px; */
+  padding: 10px;
+  margin: 30px;
+  width: 80%;
+}
+
+.activityDetailTitle{
+  background-color:#9e7676;
+  border-style: double;
+  border-radius: 20px;
+  border-color:#594545;
+  color: white;
+}

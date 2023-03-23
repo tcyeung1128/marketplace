@@ -1,0 +1,139 @@
+.productDetailBG{
+  background-color: #594545;
+  height: 90vh;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.productDetailDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDetailCard {
+  display: grid;
+  grid-template-areas:
+    "null null null"
+    "img name name"
+    "img description description"
+    "img description description"
+    "img price price"
+    /* "img add buy" */
+    "img add buy";
+  background-color: antiquewhite;
+  border-color: #594545;
+  border-width: 15px;
+  border-style: double;
+  border-radius: 20px;
+  gap: 10px;
+  padding: 10px;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  .productDetailCard {
+    display: grid;
+    grid-template-areas: 
+    /* 'null null null '
+    'img name name '
+    'img description description '
+    'img description description '
+    'img price price '
+    'img add buy '; */
+      "img img "
+      "name name "
+      "description  description "
+      "price price "
+      "add add "
+      "buy buy ";
+    background-color: antiquewhite;
+    border-color: #594545;
+    border-width: 15px;
+    border-style: double;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+}
+
+.productDetailImg {
+  grid-area: img;
+  width: 300px;
+  height: 100%;
+  border-radius: 20px;
+  align-items: center;
+  border: #594545;
+  border-style: inset;
+  border-width: 5px;
+}
+
+.productDetailName {
+  grid-area: name;
+  width: 300px;
+}
+
+.productDetailDescription {
+  grid-area: description;
+  height: 100%;
+}
+
+.productDetailPrice {
+  grid-area: price;
+  float: left;
+}
+
+.productDetailAddButton {
+  grid-area: add;
+  border: #594545;
+  border-style:solid;
+  border-width: 5px;
+  border-radius: 20px;
+  color: white;
+  background-color:  #9e7676;
+  width: 100px;
+}
+.productDetailAddButton:hover {
+  background-color: #594545;
+}
+
+.productDetailAddButton:active {
+  background-color: rgb(124, 71, 71);
+}
+
+.productDetailQTY {
+  grid-area: buy;
+}
+
+.shoppingcartImg{
+  grid-area: add;
+  width: 50px;
+}
+
+.productDetaiBackButton {
+  /* display: block; */
+  /* grid-area: buy; */
+  border: #4e2d2d;
+  border-width: 10px;
+  border-style:outset;
+  border-radius: 20px;
+  color: white;
+  background-color: antiquewhite;
+}
+
+.productDetaiBackButton:hover {
+  background-color: #815b5b;
+}
+
+.productDetaiBackButton:active {
+  background-color: rgb(96, 73, 73);
+  border: #4e2d2d;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.backImg{
+  width: 50px;
+}

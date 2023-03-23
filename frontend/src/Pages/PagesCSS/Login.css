@@ -1,0 +1,27 @@
+.loginBackground{
+  background-color: #594545;
+  height: 90vh;
+  padding: 50px;
+}
+
+.loginLogo{
+  color: antiquewhite;
+}
+
+.loginButton{
+  border: #4e2d2d;
+  border-width: 5px;
+  border-style:solid;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.signupButton{
+  border: #4e2d2d;
+  border-width: 5px;
+  border-style:solid;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
